@@ -22,10 +22,10 @@ c. sudo rm -rf /var/lib/containerd
 Install Docker using repository
 
 a. sudo apt-get update
-   sudo apt-get install \
-    ca-certificates \
-    curl \
-    gnupg \
+   sudo apt-get install \\
+    ca-certificates \\
+    curl \\
+    gnupg \\
     lsb-release
 
 b. curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
